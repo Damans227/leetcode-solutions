@@ -6,5 +6,6 @@
 | 66. Plus One  | Given a non-empty array of decimal digits representing a non-negative integer, increment one to the integer. | Use back tracking with a for loop to add one to a digit less than 9 and then create a new array if all digits are 9| Back tracking  |https://www.youtube.com/watch?v=HKjt0f1N0GA |
 | 20. Valid Parentheses | Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.| Stack and Linear Iterate | Iterate through the String and use stack to push() Open Bracket and Pop() Close Bracket.  | https://www.youtube.com/watch?v=9kmUaXrjizQ |
 | 1249. Minimum Remove to Make Valid Parentheses  | Your task is to remove the minimum number of parentheses ( '(' or ')', in any positions ) so that the resulting parentheses string is valid and return any valid string. |Balance String L-R and then R->L and remove extra closed bracket  | Balance String | https://www.youtube.com/watch?v=sClFsx12VgM |
+| 5. Longest Palindromic Substring  | Given a string s, return the longest palindromic substring in s. |Start from the mid and expand two seperate pointers to left and right | mid to end expansion| https://www.youtube.com/watch?v=DK5OKKbF6GI|
 | Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
 
