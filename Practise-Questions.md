@@ -7,5 +7,5 @@
 | 20. Valid Parentheses | Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.| Stack and Linear Iterate | Iterate through the String and use stack to push() Open Bracket and Pop() Close Bracket.  | https://www.youtube.com/watch?v=9kmUaXrjizQ |
 | 1249. Minimum Remove to Make Valid Parentheses  | Your task is to remove the minimum number of parentheses ( '(' or ')', in any positions ) so that the resulting parentheses string is valid and return any valid string. |Balance String L-R and then R->L and remove extra closed bracket  | Balance String | https://www.youtube.com/watch?v=sClFsx12VgM |
 | 5. Longest Palindromic Substring  | Given a string s, return the longest palindromic substring in s. |Start from the mid and expand two seperate pointers to left and right | mid to end expansion| https://www.youtube.com/watch?v=DK5OKKbF6GI|
+| 415. Add Strings  | Given two non-negative integers, num1 and num2 represented as string, return the sum of num1 and num2 as a string  | 1_ Make use of ASCII '0' character to get indivual digit in the INTEGER form | Start from the end of 2 numbers | https://www.youtube.com/watch?v=_Qp-CTzat50|
 | Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
-
