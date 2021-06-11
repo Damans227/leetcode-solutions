@@ -9,4 +9,6 @@
 | 5. Longest Palindromic Substring  | Given a string s, return the longest palindromic substring in s. |Start from the mid and expand two seperate pointers to left and right | mid to end expansion| https://www.youtube.com/watch?v=DK5OKKbF6GI|
 | 415. Add Strings  | Given two non-negative integers, num1 and num2 represented as string, return the sum of num1 and num2 as a string  | 1_ Make use of ASCII '0' character to get indivual digit in the INTEGER form | Start from the end of 2 numbers | https://www.youtube.com/watch?v=_Qp-CTzat50|
 | 680. Valid Palindrome II | Given a string s, return true if the s can be palindrome after deleting at most one character from it. |Use 2 pointer method from start to end, and use ahelper function to skip the non matching chars | 2 pointer and helper function | https://www.youtube.com/watch?v=L_74qbyPHXE |
+| 14. Longest Common Prefix | Write a function to find the longest common prefix string amongst an array of strings.| Take one string, and compare it char by char with every other string  | Brute Force | https://www.youtube.com/watch?v=1YQmI7F9dJ0|
 | Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
+
