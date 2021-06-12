@@ -10,5 +10,9 @@
 | 415. Add Strings  | Given two non-negative integers, num1 and num2 represented as string, return the sum of num1 and num2 as a string  | 1_ Make use of ASCII '0' character to get indivual digit in the INTEGER form | Start from the end of 2 numbers | https://www.youtube.com/watch?v=_Qp-CTzat50|
 | 680. Valid Palindrome II | Given a string s, return true if the s can be palindrome after deleting at most one character from it. |Use 2 pointer method from start to end, and use ahelper function to skip the non matching chars | 2 pointer and helper function | https://www.youtube.com/watch?v=L_74qbyPHXE |
 | 14. Longest Common Prefix | Write a function to find the longest common prefix string amongst an array of strings.| Take one string, and compare it char by char with every other string  | Brute Force | https://www.youtube.com/watch?v=1YQmI7F9dJ0|
+| 443. String Compression | Given an array of characters chars, compress it using the following algorithm. | Start 2 pointers at the beginning and keep updating a counter whenever you hit a different character | 2 pointers/ Sliding window ??| https://www.youtube.com/watch?v=IhJgguNiYYk |
 | Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
+| Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
+| Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
+
 
