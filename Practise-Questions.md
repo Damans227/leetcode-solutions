@@ -11,7 +11,7 @@
 | 680. Valid Palindrome II | Given a string s, return true if the s can be palindrome after deleting at most one character from it. |Use 2 pointer method from start to end, and use ahelper function to skip the non matching chars | 2 pointer and helper function | https://www.youtube.com/watch?v=L_74qbyPHXE |
 | 14. Longest Common Prefix | Write a function to find the longest common prefix string amongst an array of strings.| Take one string, and compare it char by char with every other string  | Brute Force | https://www.youtube.com/watch?v=1YQmI7F9dJ0|
 | 443. String Compression | Given an array of characters chars, compress it using the following algorithm. | Start 2 pointers at the beginning and keep updating a counter whenever you hit a different character | 2 pointers/ Sliding window ??| https://www.youtube.com/watch?v=IhJgguNiYYk |
-| Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
+| 1108. Defanging an IP Address  | Given a valid (IPv4) IP address, return a defanged version of that IP address.  |Use String Builder, brute force  | Linear Solution |https://www.youtube.com/watch?v=bJTgBNT3LbA |
 | Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
 | Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
 
