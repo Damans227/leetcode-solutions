@@ -12,7 +12,7 @@
 | 14. Longest Common Prefix | Write a function to find the longest common prefix string amongst an array of strings.| Take one string, and compare it char by char with every other string  | Brute Force | https://www.youtube.com/watch?v=1YQmI7F9dJ0|
 | 443. String Compression | Given an array of characters chars, compress it using the following algorithm. | Start 2 pointers at the beginning and keep updating a counter whenever you hit a different character | 2 pointers/ Sliding window ??| https://www.youtube.com/watch?v=IhJgguNiYYk |
 | 1108. Defanging an IP Address  | Given a valid (IPv4) IP address, return a defanged version of that IP address.  |Use String Builder, brute force  | Linear Solution |https://www.youtube.com/watch?v=bJTgBNT3LbA |
-| Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
+| 953. Verifying an Alien Dictionary  | n an alien language, surprisingly they also use english lowercase letters, but possibly in a different order |Create a character mapping of new alphabets order  | ASCII substraction | https://www.youtube.com/watch?v=KvachM5i6-Q|
 | Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
 
 
