@@ -14,6 +14,7 @@
 | 1108. Defanging an IP Address  | Given a valid (IPv4) IP address, return a defanged version of that IP address.  |Use String Builder, brute force  | Linear Solution |https://www.youtube.com/watch?v=bJTgBNT3LbA |
 | 953. Verifying an Alien Dictionary  | n an alien language, surprisingly they also use english lowercase letters, but possibly in a different order |Create a character mapping of new alphabets order  | ASCII substraction | https://www.youtube.com/watch?v=KvachM5i6-Q|
 |455. Assign Cookies| Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie.|Sort the arrays for children and greed. Start from the end, feed the greedy child if cookie is bigger than greed.|Greedy Approach|https://www.youtube.com/watch?v=1JDh9O7GDyA|
+| 917. Reverse Only Letters | Given a string s, return the "reversed" string where all characters that are not a letter stay in the same place, and all letters reverse their positions. |2 pointers  | Start from the end of 2 characters | https://www.youtube.com/watch?v=qVADz0khbH0 |
 | Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
 
 
