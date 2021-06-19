@@ -15,6 +15,7 @@
 | 953. Verifying an Alien Dictionary  | n an alien language, surprisingly they also use english lowercase letters, but possibly in a different order |Create a character mapping of new alphabets order  | ASCII substraction | https://www.youtube.com/watch?v=KvachM5i6-Q|
 |455. Assign Cookies| Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie.|Sort the arrays for children and greed. Start from the end, feed the greedy child if cookie is bigger than greed.|Greedy Approach|https://www.youtube.com/watch?v=1JDh9O7GDyA|
 | 917. Reverse Only Letters | Given a string s, return the "reversed" string where all characters that are not a letter stay in the same place, and all letters reverse their positions. |2 pointers  | Start from the end of 2 characters | https://www.youtube.com/watch?v=qVADz0khbH0 |
+| 1221. Split a String in Balanced Strings | Return the maximum amount of split balanced strings.. |Scale linearly, and count R, remove count for L, and increment balancedCount when count==0 | Greedy Approach | https://www.youtube.com/watch?v=rnwmE9m9EMM |
 | Content Cell  | Content Cell  |Content Cell  | Content Cell | Content Cell |
 
 
