@@ -3,10 +3,11 @@ class Solution:
         seats.sort()
         students.sort()
         
-        zipped_list=zip(seats, students)
+        zipped_list=list(zip(seats, students))
         differ=[]
         
-        for i,j in zipped_list:
+        for t in zipped_list:
+            i,j=t
             differ.append(abs(i-j))
         
         return sum(differ)
