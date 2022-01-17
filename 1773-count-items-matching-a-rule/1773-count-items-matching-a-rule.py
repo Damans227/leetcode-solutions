@@ -14,5 +14,15 @@ class Solution:
                     count+=1
         
         return count
+   
+    # Optimized solution using a HashMap/ Dictionary. 
+    
+    # rule = {'type' : 0, 'color' : 1, 'name' : 2}
+    # def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> int:
+    #     cnt, index = 0, self.rule[ruleKey]
+    #     for item in items:
+    #         if item[index] == ruleValue:
+    #             cnt += 1
+    #     return cnt
                 
                 
