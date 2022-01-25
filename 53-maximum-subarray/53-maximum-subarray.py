@@ -1,11 +1,14 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        maxSub=nums[0]
+        
+        maxSum=nums[0]
         curSum=0
         
-        for n in nums:
-            if curSum < 0:
-                curSum=0
-            curSum+=n
-            maxSub = max(maxSub, curSum)
-        return maxSub
+        #Move to the next element in the array, and decide whether you want 
+        #to start a new subarray or continue the previous subarray by 
+        #comparing the MaxSum and curSum. 
+        
+        for n in nums:           
+            curSum = max(n+curSum, n) #Should I start a new subarray ? 
+            maxSum = max(maxSum, curSum)
+        return maxSum
