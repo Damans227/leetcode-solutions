@@ -3,11 +3,13 @@ class Solution:
         
         stack = []
         closeToOpen = {"]":"[", "}":"{", ")":"("}
-        for char in s:
-            if char in closeToOpen.values():
-                stack.append(char)
-            elif char in closeToOpen.keys():
-                if stack == [] or closeToOpen[char] != stack.pop():
+        
+        for c in s:
+            if c in closeToOpen:
+                if stack!=[] and stack[-1] == closeToOpen[c]:
+                    stack.pop()
+                else:
                     return False
-                
-        return stack == []
+            else:
+                stack.append(c)
+        return True if not stack else False
