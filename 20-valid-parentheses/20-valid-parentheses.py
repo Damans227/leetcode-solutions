@@ -2,12 +2,12 @@ class Solution:
     def isValid(self, s: str) -> bool:
         
         stack = []
-        dict = {"]":"[", "}":"{", ")":"("}
+        closeToOpen = {"]":"[", "}":"{", ")":"("}
         for char in s:
-            if char in dict.values():
+            if char in closeToOpen.values():
                 stack.append(char)
-            elif char in dict.keys():
-                if stack == [] or dict[char] != stack.pop():
+            elif char in closeToOpen.keys():
+                if stack == [] or closeToOpen[char] != stack.pop():
                     return False
                 
         return stack == []
