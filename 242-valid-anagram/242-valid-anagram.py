@@ -12,6 +12,7 @@ class Solution:
             sMap[s[i]] = 1 + sMap.get(s[i], 0)
             tMap[t[i]] = 1 + tMap.get(t[i], 0)
 
+        # return Counter(s) == Counter(t)
 
         for k in sMap:
             if sMap[k] != tMap.get(k,0):
