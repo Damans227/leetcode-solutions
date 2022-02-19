@@ -13,5 +13,5 @@ class Solution:
                 charSet.remove(s[l])
                 l+=1
             charSet.add(s[r])
-            res=max(res,r-l+1)
+            res=max(res,len(charSet))
         return res
