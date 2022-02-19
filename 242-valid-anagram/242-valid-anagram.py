@@ -1,19 +1,19 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         
+        if len(s) != len(t):
+            return False
+        
         #brute force way O(s+t)
         sMap = {}
         tMap = {}
         
-        
-        #O(s)
-        for c in s:
-            sMap[c] = 1 + sMap.get(c, 0)
-        #O(t)
-        for c in t:
-            tMap[c] = 1 + tMap.get(c, 0)
+        for i in range(len(s)):
+            sMap[s[i]] = 1 + sMap.get(s[i], 0)
+            tMap[t[i]] = 1 + tMap.get(t[i], 0)
 
-        for k in sMap.keys():
-            if((k not in tMap) or (len(sMap)!=len(tMap)) or sMap[k]!=tMap[k]):
+
+        for c in sMap:
+            if sMap[c] != tMap.get(c,0):
                 return False
         return True
