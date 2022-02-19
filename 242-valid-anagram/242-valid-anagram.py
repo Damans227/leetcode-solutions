@@ -13,7 +13,7 @@ class Solution:
             tMap[t[i]] = 1 + tMap.get(t[i], 0)
 
 
-        for c in sMap:
-            if sMap[c] != tMap.get(c,0):
+        for k in sMap:
+            if sMap[k] != tMap.get(k,0):
                 return False
         return True
